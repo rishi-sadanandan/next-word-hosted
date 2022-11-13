@@ -1,7 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { API } from "aws-amplify";
+
+const apiName = "nextword";
+const path = "/prompt";
 
 function App() {
+  const invokeFunction = () => {
+    API.get(apiName, path)
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log(error.response);
+      });
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +31,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={invokeFunction}>Invoke Function</button>
       </header>
     </div>
   );

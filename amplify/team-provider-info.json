@@ -10,6 +10,17 @@
       "StackName": "amplify-nextwordhosted-dev-180453",
       "StackId": "arn:aws:cloudformation:us-east-2:491516906542:stack/amplify-nextwordhosted-dev-180453/a2c422d0-621d-11ed-a1de-061b21736f92",
       "AmplifyAppId": "d2hm6v9tubitvi"
+    },
+    "categories": {
+      "function": {
+        "nextwordFunction": {
+          "deploymentBucketName": "amplify-nextwordhosted-dev-180453-deployment",
+          "s3Key": "amplify-builds/nextwordFunction-78514c5648452b6c4c34-build.zip"
+        }
+      },
+      "api": {
+        "nextword": {}
+      }
     }
   }
 }
