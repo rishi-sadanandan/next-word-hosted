@@ -15,7 +15,7 @@
       "function": {
         "nextwordFunction": {
           "deploymentBucketName": "amplify-nextwordhosted-dev-180453-deployment",
-          "s3Key": "amplify-builds/nextwordFunction-78514c5648452b6c4c34-build.zip"
+          "s3Key": "amplify-builds/nextwordFunction-67735072746562494570-build.zip"
         }
       },
       "api": {
